@@ -28,6 +28,6 @@ if (isNaN(input) || !Number.isInteger(input)) {
 }
 else {
   for (let i = 1; i <= input; i++) {
-    console.log(`$(i) $(fizzbuzz(i)}`);
+    console.log(`${i} ${fizzbuzz(i)}`);
   }
 }
