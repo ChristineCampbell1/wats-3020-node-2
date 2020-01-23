@@ -24,9 +24,10 @@ function reverseWithHalfIteration(str) {
         result[i] = str[(str.length - i)]
         result[str.length - i] = str[i]
     }
-    return result.join('')
+    return result.join('');
     }
 }
+console.log("result with half iteration", reverseWithHalfIteration(input));
 
 //test that it is a string
 //TODO check for string argument and if no string is entered provide a usage statement and quit
