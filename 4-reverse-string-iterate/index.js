@@ -3,7 +3,7 @@
 Description:a program that takes a string as input and reverses it by iterating through the string, character by character.
 Input: a string
 Output: a reversed string
-Usage: node 4-reversed-string-iterate
+Usage: node 4-reverse-string-iterate
 */
 
 // get input using getargs
